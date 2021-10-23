@@ -99,3 +99,11 @@ body{
   width: 680px;
   height: 90px;
 }
+
+.image-style{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: auto;
+}
