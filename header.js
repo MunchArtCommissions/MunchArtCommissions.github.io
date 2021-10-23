@@ -8,7 +8,7 @@ function menuOut() {
   document.getElementById("menu").style.color = "LightSlateGray";
 }
 function menuReplace() {
-  window.location.href = "menu.html";
+  window.location.href = "index.html";
 }
 
 document.getElementById("guidelines").onmouseover = function() {guidelinesOver()};
