@@ -1,0 +1,29 @@
+.pricing-table {
+    border-collapse: collapse;
+    font-family:'Raleway', sans-serif;
+    font-size:26px;
+    line-height: 42px;
+    text-align: center;
+    min-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pricing-table thead tr {
+    background-color: #9addfb;
+    color: #2E5984;
+    text-align: center;
+
+}
+
+
+.pricing-table td {
+    padding: 5px 15px;
+    color: black;
+    text-align: center;
+}
+
+.pricing-table tbody tr {
+    border-bottom: thin solid LightSlateGray;
+}

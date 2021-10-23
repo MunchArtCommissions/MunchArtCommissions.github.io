@@ -1,0 +1,101 @@
+main{
+  padding: 0;
+  }
+
+header{
+  position:sticky;
+  top:0;
+  padding:30px;
+  text-align:center;
+  background-color:AliceBlue;
+  }
+
+content > div {
+  height: 50px;
+  }
+
+#header-style{
+  font-family: 'Raleway', sans-serif;
+  text-align:center;
+  font-size:50px;
+  color:LightSlateGray;
+}
+
+.text-style{
+  font-family:'Raleway', sans-serif;
+  font-size:26px;
+  line-height: 42px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+body{
+  background-image: url('holo_bg.png');
+  animation: fadeIn ease 1.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.headline-style{
+  text-align:center;
+  font-size:45px;
+  color:#2E5984;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+
+#guidelines-textbox {
+  margin: auto;
+  border-radius: 40px;
+  background: #93CAED;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  width: 680px;
+  height: 540px;
+}
+
+.step-textbox1 {
+  margin: auto;
+  border-radius: 10px 40px 40px 40px;
+  background: #93CAED;
+  padding: 50px 70px 60px;
+  width: 600px;
+  height: 70px;
+}
+
+.step-textbox2 {
+  margin: auto;
+  border-radius: 40px 10px 40px 40px;
+  background: #9addfb;
+  padding: 50px 70px 60px;
+  width: 600px;
+  height: 70px;
+}
+
+.step-text{
+  style="font-size:31px;
+  color:#2E5984"
+}
+
+#contact-textbox {
+  margin: auto;
+  border-radius: 40px;
+  background: #9addfb;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  width: 680px;
+  height: 90px;
+}
