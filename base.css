@@ -10,9 +10,6 @@ header{
   background-color:AliceBlue;
   }
 
-content > div {
-  height: 50px;
-  }
 
 #header-style{
   font-family: 'Raleway', sans-serif;
@@ -83,9 +80,20 @@ body{
   height: 70px;
 }
 
-.step-text{
-  style="font-size:31px;
-  color:#2E5984"
+.step-icon-left{
+  float: left;
+  width: 180px;
+  height: 180px;
+  margin-right:30px;
+  margin-left:240px;
+}
+
+.step-icon-right{
+  float: right;
+  width: 180px;
+  height: 180px;
+  margin-right:240px;
+  margin-left:30px;
 }
 
 #contact-textbox {
