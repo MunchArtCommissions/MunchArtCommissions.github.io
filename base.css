@@ -60,6 +60,7 @@ body{
   padding-right: 70px;
   width: 680px;
   height: 540px;
+  word-wrap: break-word;
 }
 
 .step-textbox1 {
@@ -69,6 +70,7 @@ body{
   padding: 50px 70px 60px;
   width: 600px;
   height: 70px;
+  word-wrap: break-word;
 }
 
 .step-textbox2 {
@@ -78,6 +80,7 @@ body{
   padding: 50px 70px 60px;
   width: 600px;
   height: 70px;
+  word-wrap: break-word;
 }
 
 .step-icon-left{
@@ -104,9 +107,9 @@ body{
   padding-left: 70px;
   padding-right: 70px;
   margin-left: 295px;
-  width: 500px;
-  height: 120px;
   background:#93CAED;
+  width: 600px;
+  word-wrap: break-word;
 }
 
 #contact-textbox {
@@ -116,7 +119,7 @@ body{
   padding-bottom: 40px;
   padding-left: 70px;
   padding-right: 70px;
-  width: 680px;
-  height: 90px;
   background: #9addfb;
+  width: 690px;
+  word-wrap: break-word;
 }
